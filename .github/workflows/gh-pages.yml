@@ -26,7 +26,7 @@ jobs:
           extended: true
       
       - name: Build
-        run: hugo --config "./config/config.toml" --cleanDestinationDir --minify
+        run: hugo --config "./config-qa.toml" --cleanDestinationDir --minify
     
       - name: Deploy Home to S3
         run: hugo deploy --maxDeletes -1 --target "Home"
