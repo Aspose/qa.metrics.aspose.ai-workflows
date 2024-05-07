@@ -1,2 +1,2 @@
 # qa.aspose.ai-workflows
-v1.7
+v1.8
